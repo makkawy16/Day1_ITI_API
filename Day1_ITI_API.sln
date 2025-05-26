@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_ITI_API", "Day1_ITI_API\Day1_ITI_API.csproj", "{5E1F427B-18B2-47BC-B95F-228BBE7B423F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS", "CQRS\CQRS.csproj", "{60E5C50C-6BBD-4009-826C-43A368A5E8DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5E1F427B-18B2-47BC-B95F-228BBE7B423F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E1F427B-18B2-47BC-B95F-228BBE7B423F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E1F427B-18B2-47BC-B95F-228BBE7B423F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E5C50C-6BBD-4009-826C-43A368A5E8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E5C50C-6BBD-4009-826C-43A368A5E8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E5C50C-6BBD-4009-826C-43A368A5E8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E5C50C-6BBD-4009-826C-43A368A5E8DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
