@@ -20,6 +20,7 @@ namespace CQRS.Command
         public async Task<Department> Handle(AddDepartmentCommand request, CancellationToken cancellationToken)
         {
             _departmentRepository.Add(request.Department);
+            _departmentRepository.SaveChanges();
             return request.Department;
         }
     }
