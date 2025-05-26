@@ -1,6 +1,6 @@
 ﻿namespace CQRS
 {
-    public class Class1
+    public class CqrsMediator
     {
 
     }
